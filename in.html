@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <style>
+        /* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color:white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+h2 {
+    color: #007bff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Profile </h1>
+        <nav>
+            <a href="#">Home</a> |
+            <a href="#">About</a> |
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! I'm  [V.Manikanta],an aspiring web developer with a passion for creating interactive and user-friendly web experiences. I'm currently honing my skills through an internship at ApexPlanet Software Pvt. Ltd., focusing on front-end technologies like HTML, CSS, and JavaScript. I'm excited to be on this journey of continuous learning and growth in the dynamic world of web development.
+.</p>
+            <img src="Mani.jpg" alt="My Image" width="300">
+        </section>
+
+        <section>
+            <h2>My Favorite Things</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Web Design</li>
+                <li>Learning New Things</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My First Webpage</p>
+    </footer>
+    <script >
+        // script.js
+
+const myButton = document.createElement('button');
+myButton.textContent = 'Click Me';
+document.body.appendChild(myButton);
+
+myButton.addEventListener('click', () => {
+    alert('webpage');
+});
+    </script>
+   
+</body>
+</html>
